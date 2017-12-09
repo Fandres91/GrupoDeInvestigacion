@@ -1,0 +1,12 @@
+En este apartado se encuentra todo lo relacionado con las consultas, modificaciones en la base de datos (CRUD)
+
+El archivo seleccion.php ---> Este archivo contiene el menú de la cabecera para navegar por los diferentes objetos que 
+se van a agregar al sistema; se entiende por objeto : Artículos, libros, patente.
+
+selectGrupo.php ---> Muestra en un select todos los grupos que se han creado hasta el momento este es usado en el CRUD de 
+director.php
+
+asignarGrupo---> Contiene el código que me dice según el usuario que ha iniciado sesión a que grupo de investigaión corresponde
+esto con el fin de que cada ves que agregue un objeto quede guardado con referencia a la tabla madre que es Grupo
+
+Las demás carpetas contiene dos archivos respectivamente php y de js. 
